@@ -1,0 +1,219 @@
+﻿<Window x:Class="WpfЗадание_15.Документы.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfЗадание_15.Документы"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <FlowDocumentReader x:Name="docV">
+            <FlowDocument>
+
+                <Paragraph>
+
+                </Paragraph>
+                <BlockUIContainer>
+                    <Image Source="Data/Bim.jpg"/>
+                </BlockUIContainer>
+
+
+                <Paragraph>
+                    An Introduction to BIM
+                    <Hyperlink NavigateUri="https://www.futurelearn.com/courses/building-information-modelling"> course </Hyperlink>
+                </Paragraph>
+
+                <Paragraph>
+                    BIM is a process for creating and managing information 
+                    on a construction project throughout its whole life cycle. 
+                    As part of this process, a coordinated digital description 
+                    of every aspect of the built asset is developed, 
+                    using a set of appropriate technology. 
+                    It is likely that this digital description includes a combination 
+                    of information-rich 3D models and associated structured 
+                    data such as product, execution and handover information.
+                </Paragraph>
+                <Paragraph>
+                    <Span Background="AntiqueWhite">
+                        We now introduce you to the ‘four pillars of BIM’.
+                        You will investigate how these are successfully integrated into BIM projects.
+                        When considering BIM, it can be helpful to consider these four significant factors:
+                    </Span>
+
+                    
+                </Paragraph>
+                <List MarkerStyle="Square">
+
+                    <ListItem>
+                        <Paragraph>
+                            <Bold>
+                                <Run Background="Yellow">
+                                    Policy
+                                </Run>
+                            </Bold>
+                        </Paragraph>
+
+                        <Section FontSize="12">
+                            <Paragraph>
+                                Knowledge of Building Information Modelling (BIM) 
+                            within the construction industry is on the rise. 
+                            The yearly reports produced by the National Building 
+                            Standards (NBS) are a valuable resource 
+                            for learning more about the rate of BIM adoption, 
+                            both within a UK and international context.
+                            For instance, NBS (2012, 2013) reports demonstrate 
+                            the decrease in number of construction 
+                            workers not aware of BIM, with 6% unaware in 2013, 
+                            down from around 40% in 2011. This shows the rising 
+                            knowledge of BIM, and possibly, its usefulness. 
+                            \Other statistics show that in the earlier years, 
+                            about 74% of the industry was not clear enough on 
+                            what BIM was. Yet, by 2016 about 54% were aware
+                            of and using BIM, with 42% at least aware of it, 
+                            and just 4% neither aware of nor using BIM (NBS, 2016). 
+                            Meaning knowledge of BIM has risen over time.
+                            Regarding the future of BIM, 73% of participants 
+                            agreed with the statement ‘BIM is the future of 
+                            project information’. These statistics indicate that although 
+                            some gaps are still present, knowledge of BIM continues to rise.
+                            Realistically, awareness is not the only reason for 
+                            adopting BIM in the AEC. However, awareness can 
+                            influence policy changes to adopt BIM where necessary. 
+                            In the UK for instance, awareness of BIM and its 
+                            benefits has led to the government calling for BIM 
+                            to be mandatory for public projects. 
+                            This policy change has influenced 
+                            the private sector to follow suit.
+                            </Paragraph>
+                        </Section>
+                    </ListItem>
+
+                    <ListItem>
+                        <Paragraph>
+                            <Bold>
+                                <Run Background="Yellow">
+                                    People
+                                </Run>
+                            </Bold>
+                        </Paragraph>
+                        <Section FontSize="12">
+                            <Paragraph>
+                                A core feature of working within a BIM environment is the drive towards encouraging multidisciplinary 
+                                collaboration from the outset of a project. 
+                                The benefits of all disciplines working together within one core BIM environment are substantial.
+                                A major issue experienced within non-BIM design processes is the matter of conflicting design issues. 
+                                The ethos of having a core central BIM model is to facilitate a smoother transition through these issues 
+                                by identifying conflicts earlier on in the project stages, 
+                                thus reducing the negative effects on schedule and costs.From an early stage, projects can be visualised, 
+                                allowing client and designer alike to gain an appreciation of how the design is going to materialise. 
+                                This allows for important design decisions and alterations to be made at an early stage, when the cost 
+                                repercussions are small or even zero.
+                            </Paragraph>
+                        </Section>
+                    </ListItem>
+
+                    <ListItem>
+                        <Paragraph>
+                            <Bold>
+                                <Run Background="Yellow">
+                                    Technology
+                                </Run>
+                            </Bold>
+                        </Paragraph>
+
+                        <Section FontSize="12">
+                            <Paragraph>
+                                
+                                BIM technology has, over the years, helped in carrying
+                                out all the pre-construction design analysis and interrogation,
+                                resulting in reduction of conflicts and changes made during the
+                                construction phase that usually have a detrimental effect on a
+                                project in terms of wastage, quality, time and costs.
+                                At the same time, the stringent energy analysis that can take
+                                place in the early stages of a BIM project aims to improve the
+                                performance of a project in regards to low-impact design.
+                                Finally, post project completion, a high-quality BIM model can
+                                continue to be utilised by an asset team to assist in the management of their assets in an efficient and environmentally conscious manner.
+                                The efficiency of the effects of changes within documentation
+                                or design is greatly improved as any changes made that are
+                                linked to the main BIM package will automatically be carried
+                                through and updated to all corresponding linked documents and models.
+                            </Paragraph>
+                        </Section>
+                    </ListItem>
+
+                    <ListItem>
+                        <Paragraph>
+                            <Bold>
+                                <Run Background="Yellow">
+                                    Process
+                                </Run>
+                            </Bold>
+                        </Paragraph>
+                        <Section FontSize="12">
+                            <Paragraph>
+                                
+                                Having the design process completed within
+                                a BIM environment using a core 3D BIM model
+                                at the centre of the project can lead to
+                                multiple benefits later in the process.
+                                The models can be analysed, allowing for
+                                a multitude of model interrogations to
+                                take place, including energy analysis,
+                                structural analysis, accurate schedules,
+                                and quantity take-offs.
+                                It is argued that using BIM processes
+                                for building projects will improve energy
+                                efficiency, improve scheduling, facilitate
+                                a reduction of waste, and facilitate a reduction in costs.
+                            </Paragraph>
+                        </Section>
+                    </ListItem>
+
+
+                </List>
+                <BlockUIContainer>
+                    <StackPanel>
+                        <TextBlock Text="If it like it, please click"/>
+                            <Button Content="Like"/>
+                    </StackPanel>
+                </BlockUIContainer>
+
+
+
+
+             
+
+
+
+
+
+            </FlowDocument>
+
+        </FlowDocumentReader>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Open" Width="100" Click="Button_Click_3"/>
+            <Button Content="Save" Width="100" Click="Button_Click_2"/>
+            <Button Content="Clean" Width="100" Click="Button_Click_1"/>
+
+        </StackPanel>
+
+
+
+
+        <!--<Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>-->
+
+        <!--<StackPanel Orientation="Horizontal" Grid.Row="1" HorizontalAlignment="Center">
+            <Button Content="Save    "/>
+            <Button Content="Download"/>
+        </StackPanel>-->
+        
+    </Grid>
+</Window>
